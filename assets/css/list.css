@@ -1,7 +1,11 @@
 .list {
     width: 100%;
     border-spacing: 0px;
+    width: 95%;
+    margin: auto;
+    border: 1px solid;
 }
+
 
 .list thead tr:nth-child(1) {
     vertical-align: top;
