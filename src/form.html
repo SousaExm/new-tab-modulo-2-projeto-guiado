@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-   
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content= "width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/new-tab-modulo1-projeto-guiado/assets/css/style.css">
+        <link rel="stylesheet" href="/new-tab-modulo1-projeto-guiado/assets/css/form.css">
         <title>
             Projeto Exemplo NewTab
         </title>
@@ -28,27 +28,33 @@
 
         <main>
             
-            <table>
-                <thead>
-                    <tr>
-                        <td>
-                            Nome
-                        </td>
-                        <td>
-                            Telefone
-                        </td>
-                        <td>
-                            Experiencia Prévia
-                        </td>
-                        <td>
-                            Açoes
-                        </td>
-                    </tr>
-                </thead>
-            </table>
+            <form action="/new-tab-modulo1-projeto-guiado/index.html" class="form">
 
+                <div>
+                    <label class="big-label" for="name">Nome: </label>
+                    <input name="name" id="name" required type="text">
+                </div>
+                
+                <div>
+                    <label class="big-label" for="phone">Telefone: </label>
+                    <input name="phone" id="phone" required type="text">    
+                </div>
+                
+                <div class="xp">
+                    <label class="big-label">Experiencia Prévia: </nbsp></label>
+
+                    <div class="xp-options">
+                        <input name="experience" id="xp-yes" required type="radio">
+                        <label for="xp-yes">Sim</label>
+                        <br>
+                        <input name="experience" id="xp-no" required type="radio">
+                        <label for="xp-no">Nao</label>
+                    </div>
+                    
+                </div>   
+            
+                <input type="submit" value="Salvar">
+            </form>
         </main>
-
-        Meu Formulário
     </body>
 </html>

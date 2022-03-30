@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cabecalho {
@@ -17,17 +18,19 @@
 .menu {
     display: flex;
     justify-content: center;
-    margin-top:10px;
+    margin:10px 0px;
 }
 
 .menu a{
     text-decoration: none;
     font-weight: bold;
     color:  #294cac;
-    font-family: Arial, Helvetica, sans-serif;
+   
 
     border: 1px solid  #294cac;
     
     padding: 5px;
-    margin-right: 15px;
+   
+    margin-right: 7px;
+    margin-left: 7px;
 }
