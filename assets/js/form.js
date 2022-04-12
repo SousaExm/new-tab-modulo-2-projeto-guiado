@@ -88,10 +88,6 @@ function saveUser(e){
     var newName = e.target.name.value
     var newPhone = e.target.phone.value
     var newXp = e.target.xpYes.checked ? "Sim" : "Nao"
-
-    if(!isPhoneNumber(newPhone)){
-        return false
-    }
     
     newOrEditedUser =
         {
