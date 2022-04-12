@@ -1,5 +1,6 @@
 .list {
     width: 100%;
+    border-collapse: collapse;
     border-spacing: 0px;
     width: 95%;
     margin: auto;
@@ -13,10 +14,6 @@
     color: white;
     font-weight: bold;
 
-}
-
-.list tr:nth-child(even){
-    background-color: #eee; 
 }
 
 .list tr td  {
